@@ -42,15 +42,8 @@ To run the training scripts:
 $ python train.py --dataset dataset --model arrow.model --labelbin lb.pickle
 ```
 
-Optional:
-This is used to generate the dataset by captured the frame from video to images. 
-```
-$ python generate_dataset.py
-```
-
 ## Work
 + The CNN model architecture is created and located in ```model/marathonnet.py```
-+ The color based region segmentation is under ```preprocessing.py```
 
 ## Note
 I didn't implement the cross-validation strategy. Don't get me wrong, cross-validation are important to prevent model 
